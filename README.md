@@ -16,25 +16,9 @@ Objectives
 
 Dataset
 
-Download the dataset from Kaggle: https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
-Place the original files in a folder named data . 
-At minimum, this script uses:
+Brazilian E-Commerce Public Dataset by Olist:
 `olist_orders_dataset.csv`
 `olist_order_items_dataset.csv`
-
-Do not commit the raw dataset to GitHub unless its terms and repository size make that appropriate. Link to the public source instead.
-
-Requirements
-
-pip install pandas numpy scikit-learn
-
-Run
-
-From the repository root:
-
-python preprocess_logistics.py
-
-The script prints basic quality checks and creates `cleaned_logistics_orders.csv`.
 
 Important notes
 
